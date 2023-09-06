@@ -1,0 +1,91 @@
+.iconoEdit{
+    font-size: 20px;
+    color: #ffbf00;
+}
+.iconiDelete{
+    font-size: 20px;
+    color: #46a2ff;
+}
+.grap{
+    flex-wrap: wrap;
+    min-width: 300px;
+    max-width: 700px;   
+}
+.opacityHover:hover{    
+    transition: 0.9s;
+}
+.zoom{
+    transition: 0.5s cubic-bezier(.95,.32,.37,1.31);
+    transform: scale(1);
+}
+.zoom:hover{
+    transform: translate(0, -10px);
+    transition: 0.5s cubic-bezier(.95,.32,.37,1.31);
+    filter: brightness(0.92);
+    transform:scale(1.05);
+    cursor: pointer;      
+}
+.color_location{
+    /* color: #F8951D; */
+    color: #63CBE6;
+}
+.color_mountain{
+    color: #63CBE6;
+    /* color: #63CBE6; */
+}
+.color_termo{
+    color: #63CBE6;
+    /* color: #F47B20; */
+}
+.colorCheck{
+    color: #F8951D;
+}
+@media screen and (min-width: 0px) {
+    .information_title{
+        font-size: 20px;
+    }
+    .information{
+        font-size: 15px;
+    }
+    .size_card{
+        width: 280px;
+    }
+    
+}
+@media screen and (min-width: 600px) {
+    .information_title{
+        font-size: 19px;
+    }
+    .information{
+        font-size: 17px;
+    }
+    .size_card{
+        width: 500px;
+    }      
+}
+@media screen and (min-width: 780px) {
+    .information_title{
+        font-size: 20px;
+    }
+    .information{
+        font-size: 15px;
+    }
+    .size_card{
+        width: 33%;
+    }
+    
+
+}
+@media screen and (min-width: 1450px) {
+    .information_title{
+        font-size: 25px;
+    }
+    .information{
+        font-size: 20px;
+    }
+    .size_card{
+        width: 33%;
+    }  
+
+}
+

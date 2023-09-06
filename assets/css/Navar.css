@@ -1,0 +1,51 @@
+.icono {
+    width: 5vh;
+    margin: 10px 0 10px 40px;
+}
+.icono:hover{
+    cursor: auto;
+}
+.elHover{
+    border-radius: 0px;
+    transition: 0.5s cubic-bezier(.95,.32,.37,1.31);
+}
+.elHover:hover{
+    background-color: #63CBE6;
+    border-radius: 10px;
+    color: #000000;
+    transition: 0.5s cubic-bezier(.95,.32,.37,1.31);
+}
+.size{
+    font-size: 20px;
+    color: #000000;
+}
+.activado{
+    color: #63CBE6;
+}
+.colorNavar{
+    background-color: #ffffff;
+    box-shadow: 0 0 20px 0 black;
+}
+@media screen and (min-width: 0px) {
+    .size{
+        font-size: 15px;
+    }
+    
+}
+@media screen and (min-width: 780px) {
+    .size{
+        font-size: 18px;        
+    }
+      
+
+}
+@media screen and (min-width: 1450px) {
+    .size{
+        font-size: 22px;  
+    }
+    .colorNavar{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }  
+
+}

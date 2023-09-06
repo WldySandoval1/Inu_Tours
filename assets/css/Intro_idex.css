@@ -1,0 +1,72 @@
+.lista_puntos{
+    list-style: none;    
+}
+.iconito{
+    font-size: 20px;
+    color: #46C8F0;
+}
+.caja_intro{
+    background-color: #1c8eff;
+    box-shadow: 20px 20px 40px #686868;
+}
+@font-face {
+    font-family: titulo;
+    src: url('../font/titulo.otf');
+}
+.title{
+    font-family:'titulo';
+}
+.precios{
+    display: flex;
+    flex-direction: column;
+}
+.end{
+    text-align: end;
+}
+@media screen and (min-width: 0px) {
+    .title{
+        font-size: 40px;
+    }
+    .parrafo_intro{
+        font-size: 15px;
+    }
+    .caja_intro{
+        width: 280px;
+    }
+    
+}
+@media screen and (min-width: 600px) {
+    .title{
+        font-size: 50px;
+    }
+    .parrafo_intro{
+        font-size: 18px;
+    }
+    .caja_intro{
+        width: 500px;
+    }       
+}
+@media screen and (min-width: 780px) {
+    .title{
+        font-size: 60px;
+    }
+    .parrafo_intro{
+        font-size: 16px;
+    }
+    .caja_intro{
+        width: auto;
+    }       
+}
+@media screen and (min-width: 1450px) {
+    .title{
+        font-size: 60px;
+    }
+    .parrafo_intro{
+        font-size: 20px;
+    }
+    .caja_intro{
+        width: auto;
+    }   
+       
+
+}

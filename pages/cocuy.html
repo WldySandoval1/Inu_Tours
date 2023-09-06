@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Cocuy-Natural Adventure</title>
+    <link rel="icon" href="../assets/img/LogoInuToursFav.svg" type="image/x-icon" />
+
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Raleway:wght@300;400&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="../assets/css/StyleGeneral.css" />
+    <link rel="stylesheet" href="../assets/css/Navar.css" />
+    <link rel="stylesheet" href="../assets/css/sliderImg/sliderImg.css" />
+    <link rel="stylesheet" href="../assets/css/Intro_idex.css" />
+    <link rel="stylesheet" href="../assets/css/Card.css" />
+    <link rel="stylesheet" href="../assets/css/itinerario.css" />
+    <link rel="stylesheet" href="../assets/css/PiePagina.css" />
+
+    <link rel="stylesheet" href="../assets/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="../assets/fontawesome/css/solid.min.css">
+    <link rel="stylesheet" href="../assets/fontawesome/css/brands.min.css">
+</head>
+
+<body>
+    <div class="container-fluid "><!-- Inicio: Navar -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary p-0" data-bs-theme="litle">
+            <div class="container-fluid colorNavar">
+                <a class="navbar-brand" href="#">
+                    <img class="icono" src="../assets/img/LogoInuTours.svg" alt="Inu Tours" />
+                </a>
+                <button class="navbar-toggler mx-5" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 p-2">
+                        <li class="nav-item mx-2">
+                            <a class="nav-link elHover px-4 ps-4 size" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle size elHover px-4 ps-4 " href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Our tours
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item elHover size" href="paipa.html">Paipa-Chilling</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item elHover size" href="santander.html">San Gil-Extreme</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item elHover size activado" href="cocuy.html">El Cocuy-Natural
+                                        Adventure</a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link elHover px-4 ps-4 size" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link elHover px-4 ps-4 size" aria-disabled="true" href="aboutMe.html">About
+                                us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Fin: Navar -->
+    </div>
+    <div class="slider">
+        <div class="list">
+            <div class="item">
+                <img src="../assets/img/galeria/Co.jpg"" alt="">
+            </div>
+            <div class=" item">
+                <img src="../assets/img/galeria/Co1.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="../assets/img/galeria/Co2.jpg"" alt="">
+            </div>
+            <div class=" item">
+                <img src="../assets/img/galeria/Co3.jpg"" alt="">
+            </div>
+            <div class=" item">
+                <img src="../assets/img/galeria/Co4.jpg"" alt="">
+            </div>
+            <div class=" item">
+                <img src="../assets/img/galeria/Co5.jpg"" alt="">
+            </div>
+            <div class=" item">
+                <img src="../assets/img/galeria/Co6.jpg"" alt="">
+            </div>
+            <div class=" item">
+                <img src="../assets/img/galeria/Co7.jpg"" alt="">
+            </div>
+            <div class=" item">
+                <img src="../assets/img/galeria/Co8.jpg"" alt="">
+            </div>
+            <div class=" item">
+                <img src="../assets/img/galeria/Co9.jpg"" alt="">
+            </div>
+            <div class=" item">
+                <img src="../assets/img/galeria/Co10.jpg"" alt="">
+            </div>
+            <div class=" item">
+                <img src="../assets/img/galeria/Co11.jpg"" alt="">
+            </div>
+            <div class=" item">
+                <img src="../assets/img/galeria/Co12.jpg"" alt="">
+            </div>
+        </div>
+
+        <!-- botone prevent and next -->
+        <div class=" botones_p-n">
+                <button id="pre">
+                    < </button>
+                        <button id="next">></button>
+            </div>
+            <ul class="dots">
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="container transp">
+            <div class="mt-5">
+                <div class="d-flex justify-content-center">
+                    <div class="caja_intro col-12 h-100 mt-5 border bg-light text-bg-light rounded">
+                        <h2 class="title mt-3 mb-0 text-center">El Cocuy-Natural Adventure</h2>
+                        <p class="parrafo_intro mt-4 mb-4 mx-3" style="max-width: 950px; text-align: center;"><strong
+                                class="colorStrong"></strong> Cocuy is a
+                            mountainous paradise of snow-capped peaks, crystalline lagoons and a
+                            unique biodiversity. Our tour agency takes you to explore this natural
+                            wonder on unforgettable excursions.</p>
+                        <br>
+                        <div class="container mt-0">
+                            <h4 style="text-align: center;">&nbsp;<strong>¿What does the plan include?</strong> </h4>
+
+                            <br>
+                            <ul class="lista_puntos">
+                                <li class="parrafo_intro mb-2"> <i class="fa-solid fa-check colorCheck"></i> &nbsp;
+                                    Private
+                                    transportation to and from Bogota.
+                                </li>
+                                <li class="parrafo_intro mb-2"><i class="fa-solid fa-check colorCheck"></i> &nbsp;
+                                    Accompanying tour
+                                    guide.</li>
+                                <li class="parrafo_intro mb-2"><i class="fa-solid fa-check colorCheck"></i> &nbsp;Meals.
+                                </li>
+                                <li class="parrafo_intro mb-2"><i class="fa-solid fa-check colorCheck"></i> &nbsp;Hotel
+                                    accommodations.
+                                </li>
+                                <li class="parrafo_intro mb-2"><i class="fa-solid fa-check colorCheck"></i>
+                                    &nbsp;Internal
+                                    transportation.</li>
+                                <li class="parrafo_intro mb-2"><i class="fa-solid fa-check colorCheck"></i> &nbsp;Travel
+                                    and mountain
+                                    insurance.</li>
+                                <li class="parrafo_intro mb-2"><i class="fa-solid fa-check colorCheck"></i>
+                                    &nbsp;Acclimatization hike.
+                                </li>
+                                <li class="parrafo_intro mb-2"><i class="fa-solid fa-check colorCheck"></i>
+                                    &nbsp;Registration and
+                                    entrance to El Cocuy
+                                    National Natural Park.</li>
+                                <li class="parrafo_intro mb-2"><i class="fa-solid fa-check colorCheck"></i>
+                                    &nbsp;Trekking and hiking in
+                                    the Sierra Nevada de
+                                    El Cocuy.</li>
+                                <li class="parrafo_intro mb-2"><i class="fa-solid fa-check colorCheck"></i> &nbsp;Local
+                                    guides endorsed
+                                    by National Parks of
+                                    Colombia (certified in first aid and mountain rescue).</li>
+                                <li class="parrafo_intro mb-2"><i class="fa-solid fa-check colorCheck"></i>
+                                    &nbsp;Natural hot springs.
+                                </li>
+                                <li class="parrafo_intro mb-2"><i class="fa-solid fa-check colorCheck"></i>
+                                    &nbsp;Accident insurance.
+                                </li>
+                            </ul>
+                            <h5 style="text-align: center;">&nbsp;<strong class="fuente">Plan Itinerary</strong> </h5>
+                            <br>
+                            <br>
+                            <h5 style="text-align: center;">&nbsp;<strong class="fuente">1 Day Start of the</strong>
+                            </h5>
+                            <br>
+                            <p class="parrafo_intro mb-2 mx-3"><strong class="colorStrong">10:00 pm.</strong>
+                                &nbsp;Departure
+                                from Bogota.</p>
+                            <br>
+                            <h5 style="text-align: center;">&nbsp;<strong class="fuente">2 Day.(acclimatization and
+                                    preparation day).</strong></h5>
+                            <br>
+                            <p class="parrafo_intro mb-2 mx-3"><strong class="colorStrong">8:00 AM
+                                </strong>&nbsp;Arrival to
+                                the municipality of El Cocuy.</p>
+                            <p class="parrafo_intro mb-2 mx-3"><strong class="colorStrong">9:00 AM
+                                </strong>&nbsp;Breakfast.
+                            </p>
+                            <p class="parrafo_intro mb-2 mx-3"><strong class="colorStrong">10:00 AM </strong>&nbsp;Talk
+                                on
+                                National Parks of Colombia: recommendations for the mountain.</p>
+                            <p class="parrafo_intro mb-2 mx-3"><strong class="colorStrong">10:30 AM </strong>&nbsp;Check
+                                in
+                                at the Hotel and rest</p>
+                            <p class="parrafo_intro mb-2 mx-3"><strong class="colorStrong">13:00 PM
+                                </strong>&nbsp;Integration lunch and presentation of the staff accompanying the
+                                expedition.</p>
+                            <p class="parrafo_intro mb-2 mx-3"><strong class="colorStrong">14:30 PM
+                                </strong>&nbsp;Acclimatization hike in the Cerro Mirador de Mahoma, (up to 4,150
+                                m.a.s.l.).</p>&nbsp;
+                            <p class="parrafo_intro mb-2 mx-3"><strong class="colorStrong">5:00 PM </strong>
+                                &nbsp;Purchase of
+                                food for lunch on the day of the ascent to the snow-capped mountain (not included).</p>
+                            <p class="parrafo_intro mb-2 mx-3"><strong class="colorStrong">7:00 PM </strong>
+                                &nbsp;Dinner.</p>
+                            <p class="parrafo_intro mb-2 mx-3"><strong class="colorStrong">Free time.</strong></p>
+                            <br>
+                            <h5 style="text-align: center;">&nbsp;<strong class="fuente">3 Day (day of the ascent to the
+                                    snow-capped peak)</strong></h5>
+                            <br>
+                            <p class="parrafo_intro mb-2 mx-3"><strong class="colorStrong">4:00 AM
+                                </strong>&nbsp;Breakfast.
+                            </p>
+                            <p class="parrafo_intro mb-2 mx-3"><strong class="colorStrong">4:30 AM
+                                </strong>&nbsp;Departure
+                                to the starting point of the trek.</p>
+                            <p class="parrafo_intro mb-2 mx-3" style="max-width: 950px; text-align: justify;"><strong
+                                    class="colorStrong">5:30 AM </strong> Trekking, hiking and ascent to the Sierra
+                                Nevada de El Cocuy until reaching the glacier. Maximum altitude approximately 5,000
+                                meters above sea level (high difficulty level hike, approximately 10 hours between
+                                ascent and descent).</p>
+                            <p class="parrafo_intro mb-2 mx-3"><strong class="colorStrong">5:00 PM </strong>&nbsp;Return
+                                to
+                                the municipality of El Cocuy.</p>
+                            <p class="parrafo_intro mb-2 mx-3"><strong class="colorStrong">6:30 PM
+                                </strong>&nbsp;Dinner.</p>
+                            <p class="parrafo_intro mb-2 mx-3"><strong class="colorStrong">Free time.</strong></p>
+                            <br>
+                            <h5 style="text-align: center;">&nbsp;<strong class="fuente">4 Day (relaxation day)</strong>
+                            </h5>
+                            <br>
+                            <p class="parrafo_intro mb-2 mx-3"><strong class="colorStrong">8:00 AM
+                                </strong>&nbsp;Breakfast.
+                            </p>
+                            <p class="parrafo_intro mb-2 mx-3"><strong class="colorStrong">8:30 AM </strong>&nbsp;Check
+                                out
+                                Hotel.</p>
+                            <p class="parrafo_intro mb-2 mx-3"><strong class="colorStrong">9:00 AM
+                                </strong>&nbsp;Departure
+                                to the natural hot springs pool in Guicán de la Sierra.</p>
+                            <p class="parrafo_intro mb-2 mx-3"><strong class="colorStrong">12:00 AM
+                                </strong>&nbsp;Lunch.</p>
+                            <p class="parrafo_intro mb-2 mx-3"><strong class="colorStrong">1:00 PM </strong>&nbsp;Return
+                                to
+                                Bogota.</p>
+                            <br>
+                            <h5 style="text-align: center;">&nbsp;<strong class="fuente">What should I bring?</strong>
+                            </h5>
+                            <br>
+                            <p class="parrafo_intro mb-2 mx-3" style="max-width: 950px; text-align: justify;"><strong
+                                    class="colorStrong"></strong>Weather conditions can vary rapidly. The ecosystems to
+                                be visited are characterized by high temperatures, low temperatures, rain, sun, strong
+                                winds... therefore it is essential to have the necessary implements or basic personal
+                                clothing:</p>
+                            <br>
+                            <ul class="lista_puntos">
+                                <li class="parrafo_intro mb-2"> <i class="fa-solid fa-check colorCheck"></i> &nbsp;
+                                    Cold weather jacket or waterproof jacket.
+                                </li>
+                                <li class="parrafo_intro mb-2"><i class="fa-solid fa-check colorCheck"></i> &nbsp;
+                                    Hiking or sports boots with good grip, non-slip soles.</li>
+                                <li class="parrafo_intro mb-2"><i class="fa-solid fa-check colorCheck"></i>
+                                    &nbsp;Comfortable walking pants.
+                                </li>
+                                <li class="parrafo_intro mb-2"><i class="fa-solid fa-check colorCheck"></i> &nbsp;Cold
+                                    weather hat.
+                                </li>
+                                <li class="parrafo_intro mb-2"><i class="fa-solid fa-check colorCheck"></i>
+                                    &nbsp;Gloves</li>
+                                <li class="parrafo_intro mb-2"><i class="fa-solid fa-check colorCheck"></i> &nbsp;Sun
+                                    hat.</li>
+                                <li class="parrafo_intro mb-2"><i class="fa-solid fa-check colorCheck"></i>
+                                    &nbsp; Sunscreen.
+                                </li>
+                                <li class="parrafo_intro mb-2"><i class="fa-solid fa-check colorCheck"></i>
+                                    &nbsp;Waterproof or windproof coat.</li>
+                                <li class="parrafo_intro mb-2"><i class="fa-solid fa-check colorCheck"></i>
+                                    &nbsp;Change shirt.</li>
+                                <li class="parrafo_intro mb-2"><i class="fa-solid fa-check colorCheck"></i>
+                                    &nbsp;Sunglasses with UV filter.</li>
+                                <li class="parrafo_intro mb-2"><i class="fa-solid fa-check colorCheck"></i>
+                                    &nbsp;A whistle or whistlestick.
+                                </li>
+                                <li class="parrafo_intro mb-2"><i class="fa-solid fa-check colorCheck"></i> &nbsp;Water
+                                    bottle or water bottle.</li>
+                                <li class="parrafo_intro mb-2"><i class="fa-solid fa-check colorCheck"></i> &nbsp;Change
+                                    socks.</li>
+                                <li class="parrafo_intro mb-2"><i class="fa-solid fa-check colorCheck"></i>
+                                    &nbsp;Bathing suit.</li>
+                                <li class="parrafo_intro mb-2"><i class="fa-solid fa-check colorCheck"></i>
+                                    &nbsp;Lighter or matches.</li>
+                                <li class="parrafo_intro mb-2"><i class="fa-solid fa-check colorCheck"></i>
+                                    &nbsp;Garbage bag.</li>
+                                <li class="parrafo_intro mb-2"><i class="fa-solid fa-check colorCheck"></i>
+                                    &nbsp;Personal documents.</li>
+                            </ul>
+                            <h5 style="text-align: center;">&nbsp;<strong class="fuente">Important note.</strong>
+                            </h5>
+                            <br>
+                            <p class="parrafo_intro mb-2 mx-3" style="max-width: 950px; text-align: justify;"><strong
+                                    class="colorStrong"></strong>The altitude, change of atmospheric pressure, variation
+                                of temperature and oxygen, make each body react in a different way. Therefore, it is
+                                important to follow the requirements and recommendations:</p>
+                            <br>
+
+                            <p class="parrafo_intro mb-2 mx-3" style="max-width: 950px; text-align: justify;"><strong
+                                    class="colorStrong"></strong><i class="fa-solid fa-star colorStrong"></i> &nbsp;
+                                It is important to have an acceptable physical condition.</p>
+                            <p class="parrafo_intro mb-2 mx-3" style="max-width: 950px; text-align: justify;"><strong
+                                    class="colorStrong"></strong><i class="fa-solid fa-star colorStrong"></i> &nbsp;
+                                For prudence it is not advisable to attend if you suffer from cardiovascular
+                                diseases, chronic asthma or epilepsy. Pregnant women, children under 12 years of age
+                                or adults over 65 years of age are also not recommended..</p>
+                            <p class="parrafo_intro mb-2 mx-3" style="max-width: 950px; text-align: justify;"><strong
+                                    class="colorStrong"></strong><i class="fa-solid fa-star colorStrong"></i> &nbsp;
+                                For check-in, an identification document or passport is required.</p>
+                            <p class="parrafo_intro mb-2 mx-3" style="max-width: 950px; text-align: justify;"><strong
+                                    class="colorStrong"></strong><i class="fa-solid fa-star colorStrong"></i> &nbsp;
+                                All
+                                trails, transportation and private accommodations in El Cocuy, depend on
+                                availability and permits from National Parks, because the carrying capacity of the</p>
+                            <br>
+                            <p class="mb-0" style="text-align: center; font-size: 25px;">
+                                <i class="fa-solid fa-bowl-food colorStrong" style="text-align: center;"></i>
+                            </p>
+                            <p class="parrafo_intro mb-0" style="text-align: center;">All our plans include buffet
+                                meals, according to the destination the menu will be typical of the region.</p>
+                            <p class="mb-0" style="text-align: center; font-size: 25px;">
+                                <i class="fa-solid fa-martini-glass-citrus colorStrong"></i>
+                            </p>
+
+                            <br>
+                            <h5 style="text-align: center;">&nbsp;<strong class="fuente">Price per person.</strong>
+                            </h5>
+                            <br>
+                            <p class="parrafo_intro mb-2 mx-3" style="text-align: center;"><strong
+                                    class="colorStrong"></strong><i class="fa-regular fa-credit-card colorStrong"></i>
+                                &nbsp;$ 880.000 COP
+                            </p>
+                            <p class="parrafo_intro mb-2 mx-3" style="text-align: center;"><strong
+                                    class="colorStrong"></strong><i class="fa-regular fa-credit-card colorStrong"></i>
+                                &nbsp;$ 220 USD
+                            </p>
+                            <div class="contendero_botton">
+                                <button class="reserva_botton" type="button"><a href="https://wa.me/3133023492"
+                                        target="_blank"><i class="fa-brands fa-whatsapp fa-2x mx-4"></i>Reservation on
+                                        whatsapp</a></button>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class=" piePagina">
+                <div class="cajaPie">
+                    <div class="pru">
+                        <a class="" href="https://instagram.com/inu_tours?igshid=OGQ5ZDc2ODk2ZA==" target="_blank">
+                            <i class="fa-brands fa-instagram fa-2x"></i>
+                        </a>
+                    </div>
+                    <div class="pru">
+                        <a href="https://www.facebook.com/InuTourss/" target="_blank">
+                            <i class="fa-brands fa-facebook fa-2x"></i>
+                        </a>
+                    </div>
+                    <div class="pru">
+                        <a href="https://wa.me/3133023492" target="_blank">
+                            <i class="fa-brands fa-whatsapp fa-2x"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <p
+                style="color: white; background-color: black; width: 100%; text-align: center; margin-bottom: 0; padding-bottom: 20px;">
+                © 2023 Inu Tours</p>
+        </footer>
+        <script src="../assets/js/popper.min.js"></script>
+        <script src="../assets/js/bootstrap.min.js"></script>
+        <script src="../assets/js/slider/slider.js"></script>
+</body>
+
+</html>

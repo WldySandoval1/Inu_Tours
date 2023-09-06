@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>San Gil-Extreme</title>
+    <link rel="icon" href="../assets/img/LogoInuToursFav.svg" type="image/x-icon" />
+
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Raleway:wght@300;400&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="../assets/css/StyleGeneral.css" />
+    <link rel="stylesheet" href="../assets/css/Navar.css" />
+    <link rel="stylesheet" href="../assets/css/sliderImg/sliderImg.css" />
+    <link rel="stylesheet" href="../assets/css/Intro_idex.css" />
+    <link rel="stylesheet" href="../assets/css/Card.css" />
+    <link rel="stylesheet" href="../assets/css/itinerario.css" />
+    <link rel="stylesheet" href="../assets/css/PiePagina.css" />
+
+    <link rel="stylesheet" href="../assets/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="../assets/fontawesome/css/solid.min.css">
+    <link rel="stylesheet" href="../assets/fontawesome/css/brands.min.css">
+</head>
+
+<body>
+    <div class="container-fluid "><!-- Inicio: Navar -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary p-0" data-bs-theme="litle">
+            <div class="container-fluid colorNavar">
+                <a class="navbar-brand" href="#">
+                    <img class="icono" src="../assets/img/LogoInuTours.svg" alt="Inu Tours" />
+                </a>
+                <button class="navbar-toggler mx-5" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 p-2">
+                        <li class="nav-item mx-2">
+                            <a class="nav-link elHover px-4 ps-4 size" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle size elHover px-4 ps-4" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Our tours
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item elHover size" href="paipa.html">Paipa-Chilling</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item elHover size activado" href="santander.html">San
+                                        Gil-Extreme</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item elHover size " href="cocuy.html">El Cocuy-Natural
+                                        Adventure</a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link elHover px-4 ps-4 size" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link elHover px-4 ps-4 size" aria-disabled="true" href="aboutMe.html">About
+                                us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Fin: Navar -->
+    </div>
+    <div class="slider">
+        <div class="list">
+            <div class="item">
+                <img src="../assets/img/galeria/Santander/San2.0.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="../assets/img/galeria/Santander/San01.JPG" alt="">
+            </div>
+            <div class="item">
+                <img src="../assets/img/galeria/Santander/San3.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="../assets/img/galeria/Santander/San4.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="../assets/img/galeria/Santander/San5.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="../assets/img/galeria/Santander/San6.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="../assets/img/galeria/Santander/San2.JPG" alt="">
+            </div>
+            <div class="item">
+                <img src="../assets/img/galeria/Santander/San7.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="../assets/img/galeria/Santander/San1.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="../assets/img/galeria/Santander/San8.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="../assets/img/galeria/Santander/San9.jpg" alt="">
+            </div>
+        </div>
+
+        <!-- botone prevent and next -->
+        <div class="botones_p-n">
+            <button id="pre">
+                < </button>
+                    <button id="next">></button>
+        </div>
+        <ul class="dots">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <div class="container transp">
+        <div class="mt-5">
+            <div class="d-flex justify-content-center">
+                <div class="caja_intro col-12 h-100 mt-5 border bg-light text-bg-light rounded">
+                    <h2 class="title mt-3 mb-0 text-center">San Gil-Extreme</h2>
+                    <p class="parrafo_intro mt-4 mb-4 mx-3" style="max-width: 950px; text-align: center;"><strong
+                            class="colorStrong"></strong>San Gil offers
+                        its visitors an authentic experience where you can enjoy beautiful
+                        landscapes, delicious gastronomy and live the culture.</p>
+                    <br>
+                    <div class="container mt-0">
+
+                        <h4 style="text-align: center;">&nbsp;<strong>¿What does the plan include?</strong> </h4>
+
+                        <br>
+                        <ul class="lista_puntos">
+                            <li class="parrafo_intro mb-2"> <i class="fa-solid fa-check colorCheck"></i> &nbsp;
+                                Private round-trip transport from Bogotá.
+                            </li>
+                            <li class="parrafo_intro mb-2"><i class="fa-solid fa-check colorCheck"></i> &nbsp;
+                                Expert tourism guides.</li>
+                            <li class="parrafo_intro mb-2"><i class="fa-solid fa-check colorCheck"></i> &nbsp;Feeding.
+                            </li>
+                            <li class="parrafo_intro mb-2"><i class="fa-solid fa-check colorCheck"></i> &nbsp;Hotel
+                                accommodation.
+                            </li>
+                            <li class="parrafo_intro mb-2"><i class="fa-solid fa-check colorCheck"></i>
+                                &nbsp;Private tour driver.</li>
+                            <li class="parrafo_intro mb-2"><i class="fa-solid fa-check colorCheck"></i>
+                                &nbsp;Registration and entrance to the yacht club.</li>
+                            <li class="parrafo_intro mb-2"><i class="fa-solid fa-check colorCheck"></i>
+                                &nbsp;Historical monument local guides.
+                            </li>
+                            <li class="parrafo_intro mb-2"><i class="fa-solid fa-check colorCheck"></i>
+                                &nbsp;Hot Springs (Termales).</li>
+                            <li class="parrafo_intro mb-2"><i class="fa-solid fa-check colorCheck"></i>
+                                &nbsp;Accident insurance</li>
+                        </ul>
+                        <h3 style="text-align: center;">&nbsp;<strong class="fuente">Trip itinerary</strong> </h3>
+                        <br>
+                        <br>
+                        <h5 style="text-align: center;">&nbsp;<strong class="fuente">1 Day Start of the</strong> </h5>
+                        <br>
+
+                        <p class="parrafo_intro mb-2 mx-3"><strong class="colorStrong">10:00 pm.</strong>
+                            &nbsp;Departure from Bogota. Meeting point: San Gil Park.</p>
+                        <br>
+                        <h5 style="text-align: center;">&nbsp;<strong class="fuente">2 Day.</strong></h5>
+                        <br>
+                        <p class="parrafo_intro mb-2 mx-3"><strong class="colorStrong">8:00 AM
+                            </strong>&nbsp;Arrival to San Gil.</p>
+                        <p class="parrafo_intro mb-2 mx-3"><strong class="colorStrong">9:00 AM
+                            </strong>&nbsp;Breakfast.
+                        </p>
+                        <p class="parrafo_intro mb-2 mx-3"><strong class="colorStrong">10:00 AM </strong>&nbsp;Talk
+                            about the parks and amusements .</p>
+
+                        <p class="parrafo_intro mb-2 mx-3"><strong class="colorStrong">10:30 AM
+                            </strong>&nbsp;Hotel and rest.</p>
+                        <p class="parrafo_intro mb-2 mx-3"><strong class="colorStrong">13:00 PM
+                            </strong>&nbsp;. Integration lunch and presentation of the staff accompanying
+                            the expedition.</p>&nbsp;
+                        <p class="parrafo_intro mb-2 mx-3"><strong class="colorStrong">14:30 PM </strong>
+                            &nbsp;Hike to Cerro de la Cruz and visit to the town of Guane.</p>
+                        <p class="parrafo_intro mb-2 mx-3"><strong class="colorStrong">7:00 PM </strong>
+                            &nbsp;Dinner.</p>
+                        <p class="parrafo_intro mb-2 mx-3"><strong class="colorStrong">Free time at leisure.</strong>
+                        </p>
+                        <br>
+                        <h5 style="text-align: center;">&nbsp;<strong class="fuente">3 Day (adventure day)</strong></h5>
+                        <br>
+                        <p class="parrafo_intro mb-2 mx-3"><strong class="colorStrong">4:00 AM
+                            </strong>&nbsp;Breakfast.
+                        </p>
+                        <p class="parrafo_intro mb-2 mx-3"><strong class="colorStrong">4:30 AM
+                            </strong>&nbsp;. Departure to the Speleology point
+                            in the cave of the cow.</p>
+                        <p class="parrafo_intro mb-2 mx-3" style="max-width: 950px; text-align: justify;"><strong
+                                class="colorStrong">10:00 AM </strong> White water rafting and canyoning practice.</p>
+                        <p class="parrafo_intro mb-2 mx-3"><strong class="colorStrong">5:00 PM </strong>&nbsp;. Return
+                            to the municipality of San Gil </p>
+                        <p class="parrafo_intro mb-2 mx-3"><strong class="colorStrong">6:30 PM
+                            </strong>&nbsp;Dinner.</p>
+                        <p class="parrafo_intro mb-2 mx-3"><strong class="colorStrong">Free time.</strong></p>
+                        <br>
+                        <h5 style="text-align: center;">&nbsp;<strong class="fuente">4 Day (relaxation day)</strong>
+                        </h5>
+                        <br>
+                        <p class="parrafo_intro mb-2 mx-3"><strong class="colorStrong">8:00 AM
+                            </strong>&nbsp;Breakfast.
+                        </p>
+                        <p class="parrafo_intro mb-2 mx-3"><strong class="colorStrong">8:30 AM </strong>&nbsp;Rest
+                            Hotel.</p>
+                        <p class="parrafo_intro mb-2 mx-3"><strong class="colorStrong">9:00 AM
+                            </strong>&nbsp;. Departure to the natural swimming pool and chicken park.</p>
+                        <p class="parrafo_intro mb-2 mx-3"><strong class="colorStrong">12:00 AM
+                            </strong>&nbsp;Lunch.</p>
+                        <p class="parrafo_intro mb-2 mx-3"><strong class="colorStrong">1:00 PM </strong>&nbsp;Return
+                            to
+                            Bogota.</p>
+                        <br>
+                        <h5 style="text-align: center;">&nbsp;<strong class="fuente">What should I bring?</strong>
+                        </h5>
+                        <br>
+                        <p class="parrafo_intro mb-2 mx-3" style="max-width: 950px; text-align: justify;"><strong
+                                class="colorStrong"></strong>It is very important to be well prepared, as weather
+                            conditions can change quickly.
+                            The ecosystems that will be visited are characterized by rain, sun, strong winds.
+                            therefore it is essential to have the necessary implements or basic personal clothing:</p>
+                        <br>
+                        <ul class="lista_puntos">
+                            <li class="parrafo_intro mb-2"> <i class="fa-solid fa-check colorCheck"></i> &nbsp;
+                                Hiking or sport boots with good grip.
+                            </li>
+                            <li class="parrafo_intro mb-2"><i class="fa-solid fa-check colorCheck"></i> &nbsp;
+                                Comfortable pants for walking</li>
+                            <li class="parrafo_intro mb-2"><i class="fa-solid fa-check colorCheck"></i>
+                                &nbsp; Gloves
+                            </li>
+                            <li class="parrafo_intro mb-2"><i class="fa-solid fa-check colorCheck"></i> &nbsp;Sun hat
+                            </li>
+                            <li class="parrafo_intro mb-2"><i class="fa-solid fa-check colorCheck"></i>
+                                &nbsp;Sunscreen </li>
+                            <li class="parrafo_intro mb-2"><i class="fa-solid fa-check colorCheck"></i> &nbsp;Change
+                                T-shirt </li>
+                            <li class="parrafo_intro mb-2"><i class="fa-solid fa-check colorCheck"></i>
+                                &nbsp; Sunglasses with UV filter
+
+                        </ul>
+                        <h5 style="text-align: center;">&nbsp;<strong class="fuente">Important note.</strong>
+                        </h5>
+                        <br>
+                        <p class="parrafo_intro mb-2 mx-3" style="max-width: 950px; text-align: justify;"><strong
+                                class="colorStrong"></strong>San Gil is an exciting destination with a variety of
+                            outdoor activities,
+                            but it is essential to be informed and prepared before your visit. :</p>
+                        <br>
+
+                        <p class="parrafo_intro mb-2 mx-3" style="max-width: 950px; text-align: justify;"><strong
+                                class="colorStrong"></strong><i class="fa-solid fa-star colorStrong"></i> &nbsp;
+                            San Gil is at a significant altitude, which can take a toll on your body. Be prepared for
+                            changes in atmospheric pressure,
+                            variable temperatures and lower oxygen levels compared to coastal areas.</p>
+                        <p class="parrafo_intro mb-2 mx-3" style="max-width: 950px; text-align: justify;"><strong
+                                class="colorStrong"></strong><i class="fa-solid fa-star colorStrong"></i> &nbsp;
+                            It is recommended that you be in acceptable physical condition, as many of the activities in
+                            San Gil involve outdoor adventures that can be physically demanding.
+                            If you have medical concerns, consult a professional before participating. </p>
+                        <p class="parrafo_intro mb-2 mx-3" style="max-width: 950px; text-align: justify;"><strong
+                                class="colorStrong"></strong><i class="fa-solid fa-star colorStrong"></i> &nbsp;
+                            Be sure to bring your identification document or passport with you,
+                            as it may be required for check-in at some tourist locations and activities.</p>
+                        <br>
+                        <p class="mb-0" style="text-align: center; font-size: 25px;">
+                            <i class="fa-solid fa-bowl-food colorStrong" style="text-align: center;"></i>
+                        </p>
+                        <p class="parrafo_intro mb-0" style="text-align: center;">All our plans include buffet meals,
+                            according to the destination the menu will be typical of the region.</p>
+                        <p class="mb-0" style="text-align: center; font-size: 25px;">
+                            <i class="fa-solid fa-martini-glass-citrus colorStrong"></i>
+                        </p>
+
+
+                        <br>
+                        <h5 style="text-align: center;">&nbsp;<strong class="fuente">Price per person.</strong>
+                        </h5>
+                        <br>
+                        <p class="parrafo_intro mb-2 mx-3" style="text-align: center;"><strong
+                                class="colorStrong"></strong><i class="fa-regular fa-credit-card colorStrong"></i>
+                            &nbsp;$ 1'000.000 COP
+                        </p>
+                        <p class="parrafo_intro mb-2 mx-3" style="text-align: center;"><strong
+                                class="colorStrong"></strong><i class="fa-regular fa-credit-card colorStrong"></i>
+                            &nbsp;$ 279 USD
+                        </p>
+                        <div class="contendero_botton">
+                            <button class="reserva_botton" type="button"><a href="https://wa.me/3133023492"
+                                    target="_blank"><i class="fa-brands fa-whatsapp fa-2x mx-4"></i>Reservation on
+                                    whatsapp</a></button>
+                        </div>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class=" piePagina">
+            <div class="cajaPie">
+                <div class="pru">
+                    <a class="" href="https://instagram.com/inu_tours?igshid=OGQ5ZDc2ODk2ZA==" target="_blank">
+                        <i class="fa-brands fa-instagram fa-2x"></i>
+                    </a>
+                </div>
+                <div class="pru">
+                    <a href="https://www.facebook.com/InuTourss/" target="_blank">
+                        <i class="fa-brands fa-facebook fa-2x"></i>
+                    </a>
+                </div>
+                <div class="pru">
+                    <a href="https://wa.me/3133023492" target="_blank">
+                        <i class="fa-brands fa-whatsapp fa-2x"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <p
+            style="color: white; background-color: black; width: 100%; text-align: center; margin-bottom: 0; padding-bottom: 20px;">
+            © 2023 Inu Tours</p>
+    </footer>
+    <script src="../assets/js/popper.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/slider/slider.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller04</title>
+    <link rel="icon" href="../assets/img/LogoInuToursFav.svg" type="image/x-icon" />
+
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Raleway:wght@300;400&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="../assets/css/StyleGeneral.css" />
+    <link rel="stylesheet" href="../assets/css/Navar.css" />
+    <link rel="stylesheet" href="../assets/css/Card.css" />
+    <link rel="stylesheet" href="../assets/css/Intro_idex.css" />
+    <link rel="stylesheet" href="../assets/css/PiePagina.css" />
+
+    <link rel="stylesheet" href="../assets/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="../assets/fontawesome/css/solid.min.css">
+    <link rel="stylesheet" href="../assets/fontawesome/css/brands.min.css">
+
+    <link rel="stylesheet" href="../assets/css/contacntofor/formatoContac__text.css">
+    <link rel="stylesheet" href="../assets/css/contacntofor/formcontacto.css">
+    <link rel="stylesheet" href="../assets/css/contacntofor/input-formulario.css">
+</head>
+
+<body>
+    <div class="container-fluid "><!-- Inicio: Navar -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary p-0" data-bs-theme="litle">
+            <div class="container-fluid colorNavar">
+                <a class="navbar-brand" href="#">
+                    <img class="icono" src="../assets/img/LogoInuTours.svg" alt="Inu Tours" />
+                </a>
+                <button class="navbar-toggler mx-5" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 p-2">
+                        <li class="nav-item mx-2">
+                            <a class="nav-link elHover px-4 ps-4 size" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle size elHover px-4 ps-4" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Our tours
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item elHover size" href="paipa.html">Paipa-Chilling</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item elHover size" href="santander.html">San Gil-Extreme</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item elHover size" href="cocuy.html">El Cocuy-Natural
+                                        Adventure</a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link activado elHover px-4 ps-4 size" href="contact.html">PCC</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link elHover px-4 ps-4 size" aria-disabled="true" href="aboutMe.html">About
+                                us</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Fin: Navar -->
+    </div>
+    <div class="container caja_intro col-12 h-100 mt-5 border bg-light text-bg-light rounded">
+        <section class="formcontato" id="contacto">
+            <div class="formcontato__contacto">
+                <div class="formcontato__text">
+                    <h2 class="formcontato__title title mt-0">Concerns, Petitions, Complaints and Grievances</h2>
+                    <h3 class="parrafo_intro mt-5">Complete the form below and we will contact you as soon as possible.
+                    </h3>
+
+                    <form action="./send.html" class="formcontato__form" name="form">
+                        <fieldset class="borde">
+                            <div class="input-container ">
+                                <input name="name" id="name" class="input" type="text" placeholder="Nombre" required
+                                    data-tipo="nombre">
+                                <label class="input-label" for="name">Full Name</label>
+                                <span class="input-message-error">Este campo no es valido</span>
+                            </div>
+                            <div class="input-container">
+                                <input name="email" id="email" class="input" type="email" placeholder="Email" required
+                                    data-tipo="correo">
+                                <label class="input-label" for="email">Email</label>
+                                <span class="input-message-error">Este campo no es valido</span>
+                            </div>
+                            <div class="input-container ">
+                                <input name="name" id="name" class="input" type="text" placeholder="Asunto" required
+                                    pattern="[\s\S]{10,50}" data-tipo="asunto">
+                                <label class="input-label" for="name">Subject</label>
+                                <span class="input-message-error">Este campo no es valido</span>
+                            </div>
+                            <div class="input-container ">
+                                <textarea class="input textarea" rows="5" cols="40" id="mensagem" name="mensaje"
+                                    placeholder="Mensaje" required minlength="15" maxlength="500"
+                                    title="Ingresa entre 15 a 300 caracteres" data-tipo="mensaje"></textarea>
+                                <label class="input-label" for="name">Message</label>
+                                <span class="input-message-error">Este campo no es valido</span>
+                            </div>
+                        </fieldset>
+                        <button type="button" onclick="pccEnviado()" class="button__send">Send Messsage</button>
+
+                    </form>
+                </div>
+            </div>
+        </section>
+        <div class="enviado" id="envio">
+        </div>
+    </div>
+    <footer>
+        <div class=" piePagina">
+            <div class="cajaPie">
+                <div class="pru">
+                    <a class="" href="https://instagram.com/inu_tours?igshid=OGQ5ZDc2ODk2ZA==" target="_blank">
+                        <i class="fa-brands fa-instagram fa-2x"></i>
+                    </a>
+                </div>
+                <div class="pru">
+                    <a href="https://www.facebook.com/InuTourss/" target="_blank">
+                        <i class="fa-brands fa-facebook fa-2x"></i>
+                    </a>
+                </div>
+                <div class="pru">
+                    <a href="https://wa.me/3133023492" target="_blank">
+                        <i class="fa-brands fa-whatsapp fa-2x"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <p
+            style="color: white; background-color: black; width: 100%; text-align: center; margin-bottom: 0; padding-bottom: 20px;">
+            © 2023 Inu Tours</p>
+    </footer>
+    <script src="../assets/js/popper.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script type="module" src="../assets/js/app.js"></script>
+    <script src="../assets/js/enviar.js"></script>
+
+</body>
+
+
+</html>

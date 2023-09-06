@@ -1,0 +1,41 @@
+
+.borde{
+    border: none;
+    padding: 0;
+}
+@media screen and (min-width: 0px) {
+    .formcontato__title{
+        margin-top: 1rem;
+        text-align: center;
+    }
+    .formcontato__subtext{
+        margin-top: 1rem;        
+    }
+    
+}
+.enviado{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+    /* display: none; */
+}
+
+.plane{
+    font-size: 70px;
+    margin: 40px;
+}
+.menSent{
+    font-size: 35px;
+    font-family:'titulo';
+}
+@media screen and (max-width: 780px) {
+    .menSent{
+        font-size: 20px;
+    }
+    .plane{
+        font-size: 30px;
+    }
+
+}

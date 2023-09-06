@@ -1,0 +1,40 @@
+.colorStrong{
+    color: #63CBE6;
+}
+.fuente{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-family: 'Gilgan';
+}
+@font-face {
+    font-family: Gilgan;
+    src: url('../font/Gilgan.otf');
+}
+.contendero_botton{
+    margin: 5%;
+    text-align: center;
+}
+.reserva_botton{
+    font-size: 20px;
+    border: none;
+    background-color: #25D366;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100%;
+    transition: 0.5s cubic-bezier(.95,.32,.37,1.31);
+}
+.reserva_botton a{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    transform: scale(1);
+    
+}
+.reserva_botton:hover{
+    transform: scale(1.02);
+    transition: 0.5s cubic-bezier(.95,.32,.37,1.31);
+
+}
